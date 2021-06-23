@@ -1,0 +1,82 @@
+.user-name {
+  color: white;
+  font-size: 20px;
+  margin: 0.5%;
+}
+
+.imm {
+  border-radius: 30%
+}
+
+.container {
+  background: linear-gradient(45deg,#2b5876 , #4e4376);
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+  width: 300px;
+  height: 180px;
+}
+
+.container:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.inn {
+  display: none;
+  margin-top: 1px;
+  padding-top: 2px;
+}
+
+.container:hover .inn {
+  display: table-cell;
+  background-color: #000428;
+  color: white;
+  float: right;
+  font-weight: 600;
+}
+
+.row {
+  background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+}
+
+.result {
+  color: white;
+}
+
+.search-repo {
+  padding-bottom: 2%;
+  color: #000428;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.search-user {
+  background-color: blanchedalmond;
+}
+
+.form {
+  background: linear-gradient(90deg, #c6d4dd, #4f6172);
+
+}
+
+.nav {
+  padding-left: 50%;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  height: 70px;
+  width: 90px;
+}
+
+.forminn {
+  display: inline-flex;
+}
+
+.name {
+  margin-left: 1.2%;
+  font-weight: 700;
+  color: rgb(10, 9, 9);
+  font-size: larger;
+}
